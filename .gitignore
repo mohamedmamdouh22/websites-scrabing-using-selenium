@@ -1,0 +1,15 @@
+/.vscode
+/all jobs.csv
+/build
+/chromedriver.exe
+/dist
+/input.png
+/job_list.csv
+/LICENSE.chromedriver
+/output.png
+/scrapin.py
+/selenum.spec
+/tempCodeRunnerFile.py
+/wazz.png
+/wazzuf.py
+/wazz_o.png
