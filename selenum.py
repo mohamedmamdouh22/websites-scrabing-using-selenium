@@ -7,6 +7,7 @@ import pandas as pd
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 os.environ['PATH'] += r'C:/Users/HP/Desktop/webScraping'
 options = webdriver.ChromeOptions();
 options.add_argument("--log-level=3");
