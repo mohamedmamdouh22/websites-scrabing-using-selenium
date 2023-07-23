@@ -12,7 +12,14 @@ from colorama import Fore, init
 from time import sleep
 
 init(True)
+import undetected_chromedriver as uc
 
+options = webdriver.ChromeOptions() 
+options.headless = True
+options.add_argument("start-maximized")
+options.add_experimental_option("excludeSwitches", ["enable-automation"])
+options.add_experimental_option('useAutomationExtension', False)
+driver = uc.Chrome(options=options)
 
 # webdriver options
 DRIVER_OPTIONS = [
